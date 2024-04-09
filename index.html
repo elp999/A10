@@ -5,9 +5,6 @@
 </head>
 <body>
     <h1>Setting a cookie</h1>
-    <p>Click the button to set a cookie</p>
-    <button onclick="setCookie()">Set Cookie</button>
-
     <div>
         <h2>Cookie:</h2>
         <p id="cookie"></p>
@@ -15,7 +12,7 @@
 
     <script>
         function setCookie() {
-            document.cookie = "username=John Doe";
+            let cookie = prompt(set your cookie);
             document.getElementById("cookie").innerHTML = document.cookie;
         }
     </script>
